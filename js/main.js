@@ -141,16 +141,16 @@ jQuery(document).ready(function( $ ) {
   });
 
   // Porfolio isotope and filter
-  var portfolioIsotope = $('.portfolio-container').isotope({
-    itemSelector: '.portfolio-item',
+  var analyticsIsotope = $('.analytics-container').isotope({
+    itemSelector: '.analytics-item',
     layoutMode: 'fitRows'
   });
 
-  $('#portfolio-flters li').on( 'click', function() {
-    $("#portfolio-flters li").removeClass('filter-active');
+  $('#analytics-flters li').on( 'click', function() {
+    $("#analytics-flters li").removeClass('filter-active');
     $(this).addClass('filter-active');
 
-    portfolioIsotope.isotope({ filter: $(this).data('filter') });
+    analyticsIsotope.isotope({ filter: $(this).data('filter') });
   });
 
   // Clients carousel (uses the Owl Carousel library)
