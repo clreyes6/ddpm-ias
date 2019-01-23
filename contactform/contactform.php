@@ -7,7 +7,7 @@
 /***************** Configuration *****************/
 
 // Enter your email, where you want to receive the messages.
-$contact_email_to = "ddpmanalytics@gmail.com";
+$contact_email_to = "info@ddpm-ias.com";
 
 // Subject prefix
 $contact_subject_prefix = "Contact Form Message: ";
